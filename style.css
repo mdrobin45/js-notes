@@ -7,34 +7,17 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     background-color: #7BDAF3;
-    min-height: 100vh;
+}
+.main{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 2rem;
 }
-.top-border-1, .top-border-2,.top-border-3{
-    display: block;
-    height: 12px;
-    margin: auto;
-}
-.top-border-1{
-    background-color: #E0F2F6;
-    width: 75%;
-}
-.top-border-2{
-    background-color: #fdf7f7;
-    width:85%;
-}
-.top-border-3{
-    background-color: #E0F2F6;
-    width:95%;
-}
-.notes-container{
+.note-item{
     background-color: #fff;
-    width: 30em;
-    height: 30em;
-    /* padding: 2rem; */
+    width: 25%;
+    height: 20em;
+    margin: 0 10px;
 }
 .tool-set{
     display: flex;
