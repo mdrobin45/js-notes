@@ -6,4 +6,51 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: #7BDAF3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-border-1, .top-border-2,.top-border-3{
+    display: block;
+    height: 12px;
+    margin: auto;
+}
+.top-border-1{
+    background-color: #E0F2F6;
+    width: 75%;
+}
+.top-border-2{
+    background-color: #fdf7f7;
+    width:85%;
+}
+.top-border-3{
+    background-color: #E0F2F6;
+    width:95%;
+}
+.notes-container{
+    background-color: #fff;
+    width: 30em;
+    height: 30em;
+    /* padding: 2rem; */
+}
+.tool-set{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ECFAF5;
+    padding:1rem;
+    border-top: 1px solid #f0f0f0;
+}
+.tool-set i{
+    font-size: 18px;
+    padding: 0 .5rem;
+    color:#9EC862;
+}
+.left{
+    display: flex;
+}
+.right i{
+    color:rgb(226, 46, 46);
 }
